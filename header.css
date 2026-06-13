@@ -1,0 +1,37 @@
+header{
+   background-color: #1a1a2e;
+   width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid rgb(var(--premiere-couleur),0.2)
+}
+.logo-img{
+    border-radius: 15%;
+    padding: 5px;
+    width: 130px;
+    height: 70px ;
+}
+.ogt{
+   font-size: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+   transition: transform 0.2s ease;
+  display: inline-block;
+}
+.ogt:hover{
+   transform: scale(1.3);
+    background-color: rgb(var(--premiere-couleur));
+    color: #00D4FF;
+    border-radius: 50%;
+}
+.ogt:active{
+   border: 3px solid #00D4FF;
+  color: #00D4FF;
+   transform: scale(0.95);
+}
+
+

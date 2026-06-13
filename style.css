@@ -1,0 +1,20 @@
+@import url('globale.css');
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+
+:root{
+    
+    --premiere-couleur:0,0,0;
+    --seconde-couleur:255,255,255;
+    --couleur-bleu:31,132,239;
+    --couleur-rouge:277,7,68;
+    --couleur-jaune:255,210,0;
+    --couleur-verte:6,224,127;
+    --headline-font-size:42px;
+    --headline-font-weight:700;
+    --subheadline-font-size:22px;
+    --subheadline-font-weight:400;
+    --body-font-size:18px;
+}
