@@ -33,5 +33,29 @@ header{
   color: #00D4FF;
    transform: scale(0.95);
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .ogt {
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+}
+
+
+
 
 
