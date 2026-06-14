@@ -49,14 +49,16 @@ header{
   background: white;
   border-radius: 3px;
 }
-
 @media (max-width: 768px) {
+   heder{
+      height: auto;
+   }
   .aff_mobile { display: flex; }
 
   nav {
     display: none;
     flex-direction: column;
-    position: absolute;
+    
     top: 70px;
     left: 0;
     width: 100%;
@@ -66,18 +68,18 @@ header{
   }
 
   nav .ogt {
-    padding: 1rem;
+   
+   
     border-bottom: 1px solid rgba(255,255,255,0.1);
     display: block;
+
   }
 
   .menu-mobile:checked + .aff_mobile + nav {
     display: flex;
-  }
    
+  }
 }
-
-
 
 
 
