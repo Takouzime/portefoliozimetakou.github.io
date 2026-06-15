@@ -17,25 +17,7 @@ main{
     flex-shrink: 0;
     float: left;
 }
-.bt_ac{
-    padding: 5px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-}
-.bt_ac:hover{
-   transform: scale(1.3);
-    background-color: rgb(var(--premiere-couleur));
-    color: #00D4FF;
-    border-radius: 50%;
-}
-.bt_ac:active{
-   border: 3px solid #00D4FF;
-    color: #00D4FF;
-   transform: scale(0.95);
-}
+
 article{
     display: flex;
     flex-wrap: wrap;
