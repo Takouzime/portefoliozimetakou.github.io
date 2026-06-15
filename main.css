@@ -62,28 +62,7 @@ article{
     font-style: italic;
     size: 20px;
 }
-.bt_pro{
-    width: 120px;
-    height: 40px;
-    padding: auto;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-.bt_pro:hover{
-   transform: scale(0.8);
-    background-color: rgb(var(--premiere-couleur));
-    color: #00D4FF;
-    border-radius: 50%;
-}
-.bt_pro:active{
-   border: 3px solid #00D4FF;
-    color: #00D4FF;
-   transform: scale(0.95);
-}
+
 form{
     height: auto;
     width: 50%;
