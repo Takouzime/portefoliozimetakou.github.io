@@ -57,3 +57,23 @@ a:hover{
 section{
     padding: 20px;
 }
+.bt_en {
+  background: #00D4FF;
+  color: #0A0F1E;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+.bt_en:hover {
+  background: transparent;
+  color: #00D4FF;
+  border: 2px solid #00D4FF;
+  transform: translateY(-3px);
+}
