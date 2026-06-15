@@ -6,7 +6,7 @@ main{
 .contener_ac {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .profil-img{
@@ -98,28 +98,7 @@ form input, form textarea{
     font-size: 16px;
     text-align: center;
 }
-form button{
-    width: 120px;
-    height: 40px;
-    padding: auto;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-form button:hover{
-   transform: scale(1.3);
-    background-color: rgb(var(--premiere-couleur));
-    color: #00D4FF;
-    border-radius: 50%;
-}
-form button:active{
-   border: 3px solid #00D4FF;
-    color: #00D4FF;
-   transform: scale(0.95);
-}
+
 @media (max-width: 768px) {
    .contener_ac {
  flex-direction: column;
