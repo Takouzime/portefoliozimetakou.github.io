@@ -159,3 +159,9 @@ form button:active{
     color: #00D4FF;
    transform: scale(0.95);
 }
+@media (max-width: 768px) {
+   .contener_ac {
+ flex-direction: column;
+ 
+}
+  }
