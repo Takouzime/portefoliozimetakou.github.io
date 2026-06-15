@@ -50,17 +50,20 @@ header{
   border-radius: 3px;
 }
 @media (max-width: 768px) {
-   header{
-      height: auto;
-   }
-  .aff_mobile { display: flex; }
+  header {
+    height: auto;
+    flex-wrap: wrap; 
+  }
+
+  .aff_mobile { 
+    display: flex;
+    margin-left: auto;
+  }
 
   nav {
     display: none;
     flex-direction: column;
-    
-    top: 70px;
-    left: 0;
+    order: 3; 
     width: 100%;
     background: rgba(10, 15, 30, 0.95);
     padding: 1rem 0;
@@ -68,18 +71,14 @@ header{
   }
 
   nav .ogt {
-   
-   
+    padding: 1rem; 
     border-bottom: 1px solid rgba(255,255,255,0.1);
     display: block;
-
   }
 
   .menu-mobile:checked + .aff_mobile + nav {
     display: flex;
-   
   }
 }
-
 
 
