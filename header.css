@@ -54,19 +54,17 @@ header{
 }
 .menu-mobile { display: none; }
 
-.aff_mobile {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
-
 .aff_mobile span {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 35px; 
+  height: 4px; 
   background: white;
   border-radius: 3px;
+  gap: 8px;   
+}
+
+.aff_mobile {
+  gap: 8px; 
 }
 @media (max-width: 768px) {
   header {
