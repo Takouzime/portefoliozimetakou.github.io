@@ -50,7 +50,7 @@ header{
   border-radius: 3px;
 }
 @media (max-width: 768px) {
-   heder{
+   header{
       height: auto;
    }
   .aff_mobile { display: flex; }
