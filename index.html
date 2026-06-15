@@ -164,5 +164,12 @@
         </div>
                
     </footer>
+    <script>
+  document.querySelectorAll('.ogt').forEach(function(lien) {
+    lien.addEventListener('click', function() {
+      document.getElementById('menu-mobile').checked = false;
+    });
+  });
+</script>
 </body>
 </html>
