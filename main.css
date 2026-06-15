@@ -3,6 +3,11 @@ main{
     width: 100%;
     height: auto;
 }
+.contener_ac {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 
 .profil-img{
     border-radius: 50%;
